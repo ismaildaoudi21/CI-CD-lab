@@ -1,4 +1,4 @@
-/*const { expect } = require('chai')
+const { expect } = require('chai')
 let db
 
 describe('Redis', () => {
@@ -10,4 +10,4 @@ describe('Redis', () => {
   it('should connect to Redis', () => {
     expect(db.connected).to.eql(true)
   })
-})*/
+})
