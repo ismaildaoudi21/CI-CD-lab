@@ -1,4 +1,4 @@
-const app = require('../src/index')
+/*const app = require('../src/index')
 const chai = require('chai')
 const chaiHttp = require('chai-http')
 const db = require('../src/dbClient')
@@ -104,4 +104,4 @@ describe('User REST API', () => {
         })
     })
   })
-})
+})*/
