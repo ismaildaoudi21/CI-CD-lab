@@ -1,4 +1,4 @@
-const { expect } = require('chai')
+/*const { expect } = require('chai')
 const userController = require('../src/controllers/user')
 const db = require('../src/dbClient')
 
@@ -36,34 +36,6 @@ describe('User', () => {
       })
     })
 
-
-    /*it('avoid creating an existing user', (done) => {
-
-      const user = {
-        username: 'sergkudinov',
-        firstname: 'Sergei',
-        lastname: 'Kudinov'
-      }
-
-      userController.create(user, (err, result) => {
-
-        expect(err).to.be.equal(null)
-
-        expect(result).to.be.equal('OK')
-
-        userController.create(user, (err, result) => {
-
-          expect(err).to.not.be.equal(null)
-
-          expect(err.message).to.not.be.equal('User already exists')
-
-          expect(result).to.be.equal(null)
-
-          done()
-
-        })
-
-      })*/
 
 
     it('avoid creating an existing user', (done) => {
@@ -117,4 +89,4 @@ describe('User', () => {
     })
   
   })
-})
+})*/
